@@ -34,16 +34,12 @@ import postgreLogo from './assets/tech_logo/postgre.png';
 import csharpLogo from './assets/tech_logo/csharp.png';
 
 // Experience Section Logo's
-import webverseLogo from './assets/company_logo/webverse_logo.png';
-import agcLogo from './assets/company_logo/agc_logo.png';
-import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
 import sunLogo from './assets/company_logo/sun.png';
 import fptLogo from './assets/company_logo/fptlogo.png';
 
 // Education Section Logo's
-import glaLogo from './assets/education_logo/gla_logo.png';
-import bsaLogo from './assets/education_logo/bsa_logo.png';
-import vpsLogo from './assets/education_logo/vps_logo.png';
+import dutLogo from './assets/education_logo/dut.png';
+import cyberLogo from './assets/education_logo/cybersoft.png';
 
 // Project Section Logo's
 import githubdetLogo from './assets/work_logo/github_det.png';
@@ -118,7 +114,7 @@ export const SkillsInfo = [
       role: "Fullstack Developer",
       company: "FPT Software",
       date: "December 2022 - Present",
-      desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
+      desc: "Led full-stack development with React/Next.js, TypeScript, Redux, Node.js, Java, and MongoDB/SQL, including a legacy-to-modern migration (Biz/Browser → web stack). Built responsive UIs, designed RESTful APIs, and improved performance & accessibility in an agile setup.",
       skills: [
         "JavaScript",
         "React JS",
@@ -137,14 +133,13 @@ export const SkillsInfo = [
       role: "Fullstack Engineer",
       company: "Sun Asterisk",
       date: "July 2021 - October 2021",
-      desc: "Contributed to innovative projects as a Fullstack Engineer, leading both frontend and backend development using technologies such as HTML, CSS, JavaScript, PHP, SQL, Bootstrap, and ReactJS. Worked closely with the team to deliver responsive, high-performance web applications and improve user experience through seamless integration of various technologies.",
+      desc: "Full-stack Intern (3 months): contributed features on ReactJS front end and Java (Spring Boot) back end—built responsive UI components, integrated REST APIs, wrote basic unit tests, fixed bugs, and collaborated in Agile sprints using Git and SQL.",
       skills: [
         "ReactJS",
         "Redux",
         "JavaScript",
+        "Java",
         "Tailwind CSS",
-        "HTML",
-        "CSS",
         "SQL",
       ],
     },
@@ -153,39 +148,21 @@ export const SkillsInfo = [
   export const education = [
     {
       id: 0,
-      img: glaLogo,
-      school: "GLA University, Mathura",
-      date: "Sept 2022 - July 2024",
-      grade: "7.81 CGPA",
-      desc: "I have completed my Master's degree (MCA) in Computer Applications from GLA University, Mathura. During my time at GLA, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at GLA University has been instrumental in shaping my technical abilities and professional growth.",
-      degree: "Master of Computer Applications - MCA",
+      img: dutLogo,
+      school: "Danang University of Science and Technology",
+      date: "Sept 2018 - Oct 2022",
+      grade: "18CLC",
+      desc: "Built a solid foundation in Data Structures & Algorithms, Object-Oriented Programming (Java), Databases (SQL), Computer Networks, Operating Systems, and Web Technologies through coursework and team projects, developing practical problem-solving and software engineering habits.",
+      degree: "Degree In Information Technology",
     },
     {
       id: 1,
-      img: bsaLogo,
-      school: "BSA College, Mathura",
-      date: "Sept 2018 - Aug 2021",
-      grade: "73.2%",
-      desc: "I completed my Bachelor's degree in Computer Science (B.Sc.) from BSA College, Mathura. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at BSA College allowed me to work on projects that applied theoretical concepts to real-world problems.",
-      degree: "Bachelor of Science - BSC (Computer Science)",
-    },
-    {
-      id: 2,
-      img: vpsLogo,
-      school: "Vatsalya Public School Govardhan, Mathura",
-      date: "Apr 2017 - March 2018",
-      grade: "78%",
-      desc: "I completed my class 12 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Physics, Chemistry, and Mathematics (PCM) with Computer Science.",
-      degree: "CBSE(XII) - PCM with Computer Science",
-    },
-    {
-      id: 3,
-      img: vpsLogo,
-      school: "Vatsalya Public School Govardhan, Mathura",
-      date: "Apr 2015 - March 2016",
-      grade: "87.5%",
-      desc: "I completed my class 10 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Science with Computer.",
-      degree: "CBSE(X), Science with Computer Application",
+      img: cyberLogo,
+      school: "Cybersoft Academy",
+      date: "Jan 2021 - Mar 2021",
+      grade: "Developer Academy",
+      desc: "Completed the Cybersoft Full-Stack Program, focusing on Frontend (React, TypeScript, Redux) and Backend (Java Spring Boot, JPA/Hibernate, MySQL). Built multiple mini-projects and a capstone integrating auth, REST APIs, and clean component architecture. Worked with Git/GitHub and Agile practices, emphasizing readable code and practical problem-solving.",
+      degree: "Certificate of Completion – Software Developer Course at Cybersoft",
     },
   ];
   
