@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram, FaYoutube } from "react-icons/fa";
+import { FaFacebook, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   // Smooth scroll function
@@ -38,12 +38,8 @@ const Footer = () => {
         {/* Social Media Icons - Responsive */}
         <div className="flex flex-wrap justify-center space-x-4 mt-6">
           {[
-            { icon: <FaFacebook />, link: "https://www.facebook.com/tarun.kaushik.3511041/" },
-            { icon: <FaTwitter />, link: "https://twitter.com/CodingMaster6?s=09" },
+            { icon: <FaFacebook />, link: "https://www.facebook.com/phu.huynh.49442/" },
             { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/hu%E1%BB%B3nh-v%C4%83n-ph%C3%BA-3a3520115/" },
-            { icon: <FaInstagram />, link: "https://www.instagram.com/coding_.master/" },
-            { icon: <FaYoutube />, link: "https://www.youtube.com/codingmasteryt" },
-            
           ].map((item, index) => (
             <a
               key={index}
@@ -59,7 +55,7 @@ const Footer = () => {
 
         {/* Copyright Text */}
         <p className="text-sm text-gray-400 mt-6">
-          © 2025 Mark Huynh. All rights reserved.
+          © 2025 Mark Huynh.
         </p>
       </div>
     </footer>
