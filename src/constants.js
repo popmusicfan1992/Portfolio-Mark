@@ -45,6 +45,7 @@ import markCart from './assets/work_logo/markcart.png';
 import markchat from './assets/work_logo/markchat.png';
 import markinterviewprep from './assets/work_logo/markinterviewprep.png';
 import markblog from './assets/work_logo/markblog.png';
+import galery from './assets/work_logo/mainanh.png';
 
 
 
@@ -164,6 +165,16 @@ export const education = [
 export const projects = [
   {
     id: 0,
+    title: "Gallery X – Real-time Premium Auction Platform",
+    description:
+      "Gallery X is a high-stakes online auction platform designed for real-time, seamless, and secure bidding on luxury assets like heritage watches, fine art, and classic cars. The project focuses on extreme data synchronization and performance, enabling users to compete in high-pressure virtual auction rooms while integrating international-standard payment systems.",
+    image: galery,
+    tags: ["Nextjs", "Nodejs", "Stripe", "MongoDB", "Tailwind"],
+    github: "https://github.com/popmusicfan1992/Real-time-Auction",
+    webapp: "https://real-time-auction-sooty.vercel.app/",
+  },
+  {
+    id: 1,
     title: "Next.js Fresh Food Store & Stripe Payment Integration",
     description:
       "Fresh food & drinks shop built with Next.js & MERN. Secure Stripe payments, fast checkout, and mobile-first experience.",
@@ -173,7 +184,7 @@ export const projects = [
     webapp: "https://mark-cart-waac.vercel.app/",
   },
   {
-    id: 1,
+    id: 2,
     title: "Real-Time Messaging App (MERN & Socket.IO)",
     description:
       "MarkChat is a real-time messaging web app built with React and Node.js, using Socket.IO for instant communication, MongoDB for persistent chat data, and JWT for secure token-based authentication.",
@@ -183,7 +194,7 @@ export const projects = [
     webapp: "https://chatify-master-1tx4z.sevalla.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Interactive Job Prep Application & Tech Interview Portal",
     description:
       "A React-based web application that provides interview preparation resources, including common interview questions, coding challenges, and tips for success. The intuitive design and smooth experience make it a go-to app for job seekers.",
@@ -193,7 +204,7 @@ export const projects = [
     webapp: "https://mark-interview-prep-ai-app-07052025-three.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Knowledge Blog & AI-Powered Content Management System",
     description:
       "Mark Blog is a modern, AI-powered developer journal where I share clear, practical posts on JavaScript, React, Node.js, testing, and product thinking. Articles are drafted with Google Gemini and refined by hand for accuracy and real-world usefulness, featuring runnable snippets, checklists, and visuals. The site runs on React JS (front end) and Node.js (API), with ImageKit handling fast, optimized images and CDNs—so pages stay quick, clean, and readable across devices. Subscribe for hands-on guides, deep dives, and experiments that turn ideas into working code.",
